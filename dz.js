@@ -9,6 +9,16 @@ const person=[
     { user: "Bob", age: 12, grade: 85 },
     { user: "Charlie", age: 41, grade: 88 }
 ];
-const sortingAge=(person)=>person.filter(({age})=>age>=18);
-const sorting=sortingAge
-console.log(sortingAge(person))
+for (let i = 0; i < person.length; i++) {
+    if(person[i].age>=18){
+        console.log(person[i])
+    }
+    
+}
+
+
+// const sortingAge=(person)=>person.filter(({age})=>age>=18);
+// const sorting=sortingAge
+// console.log(sortingAge(person))
+
+
